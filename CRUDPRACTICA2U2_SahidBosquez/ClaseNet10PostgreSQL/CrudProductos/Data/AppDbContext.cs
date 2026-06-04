@@ -10,5 +10,6 @@ namespace CrudProductos.Data
         }
 
         public DbSet<Producto> Productos { get; set; }
+        public DbSet<Customer> Customers { get; set; } // agreagmos la nueva tabla Customers a nuestro contexto 
     }
 }
